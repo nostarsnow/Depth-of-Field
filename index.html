@@ -137,20 +137,19 @@
 <body>
 <div class="main" id="main">
     <div id="content">
-        <div class="df df1 df111">3</div>
-        <div class="df df1 df11">3</div>
-        <div class="df df1">3</div>
-        <div class="df df2 df222">D</div>
-        <div class="df df2 df22">D</div>
-        <div class="df df2">D</div>
-        <div class="df df3 df333">景</div>
-        <div class="df df3 df33">景</div>
-        <div class="df df3">景</div>
-        <div class="df df4 df444">深</div>
-        <div class="df df4 df44">深</div>
-        <div class="df df4">深</div>
     </div>
-    <audio src="http://m1.music.126.net/yKJfmXqUEQykbNL9EFhevw==/1030242395235440.mp3" autoplay="autoplay" loop="loop" id="bgmp3"></audio>
+    <audio src="http://m1.music.126.net/yKJfmXqUEQykbNL9EFhevw==/1030242395235440.mp3" autoplaya="autoplay" loop="loop" id="bgmp3"></audio>
 </div>
+<script type="text/javascript">
+    var text = "3D景深",
+        content = document.querySelector("#content"),
+        arr = text.split("");
+    for (var i = 1,html = ""; i <= 4; i++) {
+        html += '<div class="df df' + i + ' df' + i + '' + i + '' + i + '">' + arr[i-1] + '</div>' + 
+                '<div class="df df' + i + ' df' + i + '' + i + '">' + arr[i-1] + '</div>' + 
+                '<div class="df df' + i + '">' + arr[i-1] + '</div>';
+    };
+    content.innerHTML = html;
+</script>
 </body>
 </html>
