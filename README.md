@@ -1,6 +1,9 @@
-Depth-of-Field - 3D景深(伪)。
+Depth-of-Field - 3D景深(伪)。 
+
 利用了css3的3D变换和preserve-3d。 
-感觉起来好像也没有太头晕眼花的感觉。要不试试webGL？！
+
+感觉起来好像也没有太头晕眼花的感觉。要不试试webGL？！ 
+
 -----------------------------------  
 
 [在线预览：Demo](http://www.yunjiayigou.com/js/lib/temp/Depth-of-Field/) 
