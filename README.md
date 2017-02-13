@@ -6,6 +6,6 @@ Depth-of-Field - 3D景深(伪)。
 
 -----------------------------------  
 
-[在线预览：Demo](http://nostar.jinboran.com/ns/Depth-of-Field/) 
+[在线预览：Demo](http://nostarsnow.github.io/Depth-of-Field/) 
 
 [介绍](http://nostarsnow.github.io/2016/03/15/Depth-of-Field/) 
